@@ -16,7 +16,7 @@ public class Studentgradecalc{
 	    	sum+=num;
 	    }
 	   int percentage = sum / sub;
-
+      System.out.println("Your total marks is " + sum +", average percentage is " + percentage);
 	   if (percentage >= 90 && percentage <= 100) {
            System.out.println("You have got Grade A");
        } else if (percentage >= 80) {
